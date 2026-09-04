@@ -1,0 +1,24 @@
+{
+  "name": "meeting-summarizer",
+  "version": "1.0.0",
+  "description": "A web app to transcribe meetings, summarize discussions, and organize action items",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0",
+    "jspdf": "^2.5.1",
+    "html2canvas": "^1.4.1",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.0",
+    "vite": "^5.0.0"
+  }
+}
